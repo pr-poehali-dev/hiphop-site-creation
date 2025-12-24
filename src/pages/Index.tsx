@@ -138,19 +138,12 @@ const Index = () => {
         </div>
       </div>
 
-      <section className="relative overflow-hidden py-20 md:py-32 bg-gradient-to-br from-background via-muted/20 to-background">
+      <section className="relative overflow-hidden py-20 md:py-32 bg-background">
         <div className="absolute inset-0">
-          <img 
-            src="https://cdn.poehali.dev/projects/f29328d7-0554-45ad-b0b0-d0edfcf7a0f1/files/9581e19b-4c96-4be1-b4fa-eab0039f0554.jpg" 
-            alt="background" 
-            className="w-full h-full object-cover opacity-10"
-          />
-          <div className="absolute inset-0 bg-gradient-to-br from-background/80 via-background/60 to-background/80"></div>
-        </div>
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-10 left-10 w-64 h-64 bg-primary rounded-full blur-3xl"></div>
-          <div className="absolute bottom-10 right-10 w-96 h-96 bg-secondary rounded-full blur-3xl"></div>
-          <div className="absolute top-1/2 left-1/2 w-80 h-80 bg-accent rounded-full blur-3xl"></div>
+          <div className="absolute inset-0 bg-gradient-radial from-primary/30 via-secondary/20 to-background"></div>
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/40 rounded-full blur-[120px]"></div>
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-secondary/30 rounded-full blur-[100px]"></div>
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-accent/40 rounded-full blur-[80px]"></div>
         </div>
         
         <div className="container mx-auto px-4 relative z-10">
