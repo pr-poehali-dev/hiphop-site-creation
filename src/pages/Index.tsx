@@ -146,6 +146,24 @@ const Index = () => {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-accent/40 rounded-full blur-[80px] animate-pulse-glow" style={{ animationDelay: '2s' }}></div>
         </div>
         
+        <div className="absolute right-10 top-1/2 -translate-y-1/2 hidden xl:block z-0">
+          <img 
+            src="https://cdn.poehali.dev/projects/f29328d7-0554-45ad-b0b0-d0edfcf7a0f1/files/0206e481-afaa-4034-b329-490dbf20b595.jpg"
+            alt="spray paint"
+            className="w-64 h-auto animate-float opacity-80"
+            style={{ animationDelay: '0.5s' }}
+          />
+        </div>
+
+        <div className="absolute left-10 bottom-10 hidden xl:block z-0">
+          <img 
+            src="https://cdn.poehali.dev/projects/f29328d7-0554-45ad-b0b0-d0edfcf7a0f1/files/0206e481-afaa-4034-b329-490dbf20b595.jpg"
+            alt="spray paint"
+            className="w-48 h-auto animate-float opacity-60 rotate-12"
+            style={{ animationDelay: '1.5s' }}
+          />
+        </div>
+
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in animate-float">
             <Badge className="mb-4 text-sm px-4 py-2 bg-primary/20 text-primary border-primary/30">
