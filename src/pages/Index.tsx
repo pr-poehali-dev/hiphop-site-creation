@@ -139,6 +139,14 @@ const Index = () => {
       </div>
 
       <section className="relative overflow-hidden py-20 md:py-32 bg-gradient-to-br from-background via-muted/20 to-background">
+        <div className="absolute inset-0">
+          <img 
+            src="https://cdn.poehali.dev/projects/f29328d7-0554-45ad-b0b0-d0edfcf7a0f1/files/9581e19b-4c96-4be1-b4fa-eab0039f0554.jpg" 
+            alt="background" 
+            className="w-full h-full object-cover opacity-10"
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-background/80 via-background/60 to-background/80"></div>
+        </div>
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-10 left-10 w-64 h-64 bg-primary rounded-full blur-3xl"></div>
           <div className="absolute bottom-10 right-10 w-96 h-96 bg-secondary rounded-full blur-3xl"></div>
