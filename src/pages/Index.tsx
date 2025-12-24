@@ -141,13 +141,13 @@ const Index = () => {
       <section className="relative overflow-hidden py-20 md:py-32 bg-background">
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-radial from-primary/30 via-secondary/20 to-background"></div>
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/40 rounded-full blur-[120px]"></div>
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-secondary/30 rounded-full blur-[100px]"></div>
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-accent/40 rounded-full blur-[80px]"></div>
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/40 rounded-full blur-[120px] animate-pulse-glow"></div>
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-secondary/30 rounded-full blur-[100px] animate-pulse-glow" style={{ animationDelay: '1s' }}></div>
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-accent/40 rounded-full blur-[80px] animate-pulse-glow" style={{ animationDelay: '2s' }}></div>
         </div>
         
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center animate-fade-in">
+          <div className="max-w-4xl mx-auto text-center animate-fade-in animate-float">
             <Badge className="mb-4 text-sm px-4 py-2 bg-primary/20 text-primary border-primary/30">
               🎤 Hip-Hop Culture Hub
             </Badge>
