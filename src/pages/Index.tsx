@@ -93,6 +93,16 @@ const Index = () => {
     }
   ];
 
+  const tickerItems = [
+    "🎤 Underground Battle 2024 — 15 января",
+    "🔥 Новый альбом MC Shadow уже в сети",
+    "🏆 Hip-Hop Awards — голосование открыто",
+    "📍 Rap Fest Moscow — 22 февраля",
+    "💿 Street Cypher Night в Питере",
+    "⚡ Beatbox Battle — смотри итоги",
+    "🎵 Лучшие треки недели на Street Beats"
+  ];
+
   return (
     <div className="min-h-screen bg-background">
       <header className="border-b border-border/40 backdrop-blur-sm sticky top-0 z-50 bg-background/80">
@@ -114,6 +124,19 @@ const Index = () => {
           </div>
         </nav>
       </header>
+
+      <div className="bg-primary/10 border-y border-primary/20 py-3 overflow-hidden">
+        <div className="flex animate-scroll whitespace-nowrap">
+          {[...tickerItems, ...tickerItems].map((item, index) => (
+            <span 
+              key={index} 
+              className="inline-flex items-center px-8 text-sm font-medium text-foreground/80"
+            >
+              {item}
+            </span>
+          ))}
+        </div>
+      </div>
 
       <section className="relative overflow-hidden py-20 md:py-32 bg-gradient-to-br from-background via-muted/20 to-background">
         <div className="absolute inset-0 opacity-10">
